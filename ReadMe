@@ -1,0 +1,10 @@
+Please use first request as post from the post with below details
+
+http://localhost:8083/SpringSecurityOAuth2Example/oauth/token?grant_type=password&username=bill&password=abc123
+
+also in header mention 
+
+my-trusted-client as username
+secret as password
+
+because above both configurations are done in AuthorizationServerConfiguration.java file please check the java file before accessing.
